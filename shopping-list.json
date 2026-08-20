@@ -1,0 +1,68 @@
+{
+  "currency": { "cnyRub": 12.4 },
+  "budgetsRub": { "gear": 100000, "backpackTarget": 7000, "backpackMax": 10000 },
+  "owned": [
+    "Sony A7 IV",
+    "Tamron 28-75mm F/2.8 G2 Sony E",
+    "camera stabilizer",
+    "external monitor"
+  ],
+  "plannedCamera": "Sony FX2",
+  "items": [
+    {
+      "id": "tamron-70-180-g2",
+      "priority": 100,
+      "query": "腾龙 70-180 F2.8 G2 A065 索尼E",
+      "required": ["70-180", "G2", "A065", "Sony E", "VC"],
+      "notes": "Main lens target. Do not confuse with first generation."
+    },
+    {
+      "id": "smallrig-fx2-cage",
+      "priority": 90,
+      "query": "SmallRig 索尼 FX2 兔笼 5587",
+      "required": ["FX2"]
+    },
+    {
+      "id": "np-fz100",
+      "priority": 80,
+      "query": "SmallRig NP-FZ100 USB-C 电池"
+    },
+    {
+      "id": "short-hdmi",
+      "priority": 70,
+      "query": "相机 短 HDMI 4K60 线",
+      "quantity": 2
+    },
+    {
+      "id": "usb-c-pd",
+      "priority": 70,
+      "query": "USB-C PD 100W 短线",
+      "quantity": 2
+    },
+    {
+      "id": "amaran-100x-s",
+      "priority": 75,
+      "query": "爱图仕 amaran 100x S"
+    },
+    {
+      "id": "bowens-softbox",
+      "priority": 55,
+      "query": "爱图仕 Bowens 柔光箱 Light Dome Mini"
+    },
+    {
+      "id": "camera-backpack",
+      "priority": 85,
+      "separateBudget": true,
+      "queries": ["PGYTECH OneMo Lite 22L 摄影包", "K&F 20L 摄影包"],
+      "maxRub": 10000,
+      "targetRub": 7000
+    },
+    {
+      "id": "laowa",
+      "priority": 40,
+      "optional": true,
+      "query": "老蛙 全画幅 索尼E 电影镜头",
+      "notes": "Only if China discount versus Moscow is substantial and budget remains."
+    }
+  ]
+}
